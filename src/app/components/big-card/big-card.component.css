@@ -1,0 +1,27 @@
+.container-big-card {
+    width: 600px;
+}
+
+.big-card-img img{
+    width: 100%;
+    min-width: 400px;
+}
+
+.big-card__title > h2{
+    margin-top: .5rem;
+    padding: 0 0.7rem 0 0;
+}
+
+.description > p {
+    color: #a5a5a5;
+    margin-top: .5rem;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+

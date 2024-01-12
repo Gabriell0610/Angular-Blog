@@ -1,0 +1,12 @@
+.menu-title-container {
+    color: #fff;
+    padding: 2rem;
+
+}
+
+.menu-title-container > h1 {
+    margin: 10px auto;
+    font-size: 15.4rem;
+    letter-spacing: 1px;
+}
+

@@ -1,0 +1,19 @@
+.container-small-card {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    border-bottom: 1px solid #575656cb;
+    padding-bottom: 1rem;
+}
+
+.img-card img {
+    width: 200px;
+    min-width: 200px
+}
+
+
+.title-card h2 {
+    font-size: 1rem;
+    line-height: 27px;
+
+}

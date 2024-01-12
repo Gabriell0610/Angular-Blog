@@ -1,0 +1,36 @@
+.nav-bar {
+    padding: 2rem 2rem 1rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    background-color: rgb(240, 59, 14);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.nav-itens {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav-itens li {
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    gap: 2rem;
+}
+
