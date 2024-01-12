@@ -1,5 +1,6 @@
 .container-big-card {
     width: 600px;
+    margin-bottom: 3rem;
 }
 
 .big-card-img img{
@@ -7,9 +8,8 @@
     min-width: 400px;
 }
 
-.big-card__title > h2{
-    margin-top: .5rem;
-    padding: 0 0.7rem 0 0;
+.big-card__title a h2{
+    margin-top: 1rem;
 }
 
 .description > p {

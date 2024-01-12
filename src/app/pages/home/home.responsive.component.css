@@ -1,0 +1,7 @@
+@media screen and (min-width:320px) and (max-width: 480px) {
+    .container-articles{
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
+

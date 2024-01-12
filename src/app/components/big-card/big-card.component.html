@@ -1,21 +1,21 @@
 <div class="container-big-card">
   <div class="big-card-img">
     <img
-      src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=1501&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      src="{{ photoCover }}"
       alt=""
       srcset=""
     />
   </div>
 
   <div class="big-card__title">
-    <a href="#" target="_blank">
-      <h2>Como aumentar a produtividade nos estudos de programação </h2>
+    <a [routerLink]="['content', id]">
+      <h2>{{ cardTitle }}</h2>
     </a>
   </div>
 
   <div class="description">
     <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque dolores, cum laborum harum dolor nisi sapiente recusandae quas officiis totam officia asperiores unde ipsam soluta maxime?
+      {{ cardDescription }}
     </p>
   </div>
   

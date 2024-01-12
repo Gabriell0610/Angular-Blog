@@ -1,0 +1,13 @@
+@media screen and (min-width:320px) and (max-width: 480px) {
+    .menu-title-container {
+        padding: 1rem;
+    }
+
+    .menu-title-container > h1 {
+       text-align: center;
+       font-size: 3rem;
+    }
+
+    
+}
+
